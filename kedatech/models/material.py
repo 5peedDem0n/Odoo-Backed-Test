@@ -4,7 +4,7 @@ from odoo.exceptions import ValidationError
 class Material(models.Model):
     _name = 'kedatech.material'
 
-    code = fields.Integer(string='Material Code', required=True)
+    code = fields.Char(string='Material Code', required=True)
     name = fields.Char(string='Material Name', required=True)
     type = fields.Selection([
         ('fabric', 'Fabric'),
