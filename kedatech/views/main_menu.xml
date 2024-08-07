@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+    <!-- Main menu item -->
+    <menuitem name="Kedatech" id="kedatech.menu_root" />
+
+    <menuitem id="menu_material" action="action_material"
+            name="Material" parent="kedatech.menu_root"
+            sequence="1" />
+    
+    <menuitem id="menu_supplier" action="action_supplier"
+            name="Vendors" parent="kedatech.menu_root"
+            sequence="2" />
+    
+  </data>
+</odoo>
